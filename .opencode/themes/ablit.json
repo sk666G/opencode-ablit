@@ -1,0 +1,36 @@
+﻿{
+  $schema: "https://opencode.ai/theme.json",
+  "defs": {
+    "bg_void": "#050505",
+    "bg_panel": "#0d0d0d",
+    "bg_element": "#161616",
+    "crimson_bright": "#ff2a2a",
+    "crimson_mid": "#d92626",
+    "crimson_dim": "#801515",
+    "amber_thought": "#d4882a",
+    "text_main": "#e0e0e0",
+    "text_muted": "#6e6e6e",
+    "border_dark": "#261212"
+  },
+  "theme": {
+    "primary": { "dark": "crimson_bright", "light": "crimson_mid" },
+    "secondary": { "dark": "crimson_mid", "light": "crimson_dim" },
+    "accent": { "dark": "amber_thought", "light": "amber_thought" },
+    "error": { "dark": "crimson_bright", "light": "crimson_bright" },
+    "warning": { "dark": "amber_thought", "light": "amber_thought" },
+    "success": { "dark": "crimson_bright", "light": "crimson_mid" },
+    "info": { "dark": "crimson_mid", "light": "crimson_dim" },
+    "text": { "dark": "text_main", "light": "#111111" },
+    "textMuted": { "dark": "text_muted", "light": "#555555" },
+    "background": { "dark": "bg_void", "light": "#ffffff" },
+    "backgroundPanel": { "dark": "bg_panel", "light": "#f4f4f4" },
+    "backgroundElement": { "dark": "bg_element", "light": "#eaeaea" },
+    "border": { "dark": "border_dark", "light": "#cccccc" },
+    "borderActive": { "dark": "crimson_bright", "light": "crimson_mid" },
+    "borderSubtle": { "dark": "bg_element", "light": "#dddddd" },
+    "markdownHeading": { "dark": "crimson_bright", "light": "crimson_mid" },
+    "markdownListItem": { "dark": "crimson_bright", "light": "crimson_mid" },
+    "markdownLink": { "dark": "crimson_bright", "light": "crimson_mid" },
+    "markdownCode": { "dark": "amber_thought", "light": "crimson_dim" }
+  }
+}
